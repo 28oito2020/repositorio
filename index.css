@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #616061;
-    color: #333;
+    color: #000000;
 
 
 header {
@@ -12,6 +12,15 @@ header {
     background-color: #444;
     color: white;
 }
+ .banner{ 
+        background: url(site/banner.jpg) no-repeat center center;
+        background-size: cover; 
+        color: white; 
+        padding: 50px 0; 
+        text-align: center; 
+    }
+
+
 
 h1 {
     margin: 0;
@@ -25,12 +34,12 @@ section {
 }
 
 h2 {
-    color: #444;
+    color: #000000;
 }
 
 h3 {
     margin-top: 40px;
-    color: #444;
+    color: #000000;
 }
 
 p {
@@ -44,7 +53,7 @@ figure {
 
 figcaption {
     font-size: 14px;
-    color: #555;
+    color: #000000;
 }
 
 }
@@ -72,3 +81,30 @@ text-shadow:0px 0px 5px #fff;
     background-color:#fff;
     display:none;
     }
+    ul { 
+    
+    list-style-type: disc; /* Tipo de marcador */ 
+    margin-left: 20px; /* Margem à esquerda para os marcadores */ 
+    }
+    form{ 
+        margin-top: 20px; 
+        background: #f2f2f2; 
+        padding: 20px; 
+        border-radius: 5px; 
+        label{ 
+        display: block; 
+        margin-bottom: 10px; 
+        } 
+        input[type="file"]{ 
+        margin-bottom: 10px; 
+        } 
+        input[type="submit"]{ 
+        
+        background: #4CAF50; 
+        color: white; 
+        padding: 10px 15px; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; }
+    }
+        
